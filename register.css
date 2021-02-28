@@ -98,10 +98,48 @@ nav ul li a:hover {
 }
 
 
+.container {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+ }
+ .left, .right, .center {
+    margin-top: 250px;
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 3px;
+ }
+ .left {
+    background-color: white;
+    color: rgb(172, 170, 170);
+    text-align: justify;
+	background-image: url(images/coed.jpg);
+	background-size: cover;
+ }
+ .right {
+    background-color: white;
+    color: rgb(172, 170, 170);
+    text-align: justify;
+	background-image: url(images/york2.jpg);
+	background-size: cover;
+ }
+ .center {
+    background-color: white;
+    color: rgb(172, 170, 170);
+    background-size: cover;
+    text-align: justify;
+	background-image: url(images/hanover3.jpg);
+	background-size: cover;
+    
+ }
+ .container:after {
+    clear: both;
+ }
 
-
-
-@media(max-width: 786px) {
+ @media(max-width: 400px) {
 
 	.logo {
 		  position: fixed;
@@ -132,39 +170,134 @@ nav ul li a:hover {
 		  display: block;
 	}
 
+	.left {
+		width: 100%;
+		margin: 10px;
+		margin-top: 250px;
+	}
+
+	.center {
+		width: 100%;
+		margin: 10px;
+	}
+
+	.right {
+		width: 100%;
+		margin: 10px;
+	}
+
+	header {
+		overflow-y: scroll;
+	}
+
 }
 
-.container {
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
- }
- .left, .right, .center {
-    margin-top: 250px;
-    float: left;
-    width: 33%;
-    padding: 10px;
-    height: 500px;
-    text-align: center;
-    border-radius: 25px;
-    margin-left: 1px;
- }
- .left {
-    background-color: white;
-    color: black;
-    text-align: justify;
- }
- .right {
-    background-color: white;
-    color: black;
-    text-align: justify;
- }
- .center {
-    background-color: white;
-    color: black;
-    background-size: cover;
-    text-align: justify;
-    
- }
- .container:after {
-    clear: both;
- }
+
+ @media(max-width: 786px) {
+
+	.logo {
+		  position: fixed;
+		  top: 0;
+	}
+
+	nav ul {
+		  max-height: 0px;
+		  background: #000;
+	}
+
+	nav.black ul {
+		  background: #000;
+	}
+
+	.showing {
+		  max-height: 34em;
+	}
+
+	nav ul li {
+		  box-sizing: border-box;
+		  width: 100%;
+		  padding: 24px;
+		  text-align: center;
+	}
+
+	.menu-icon {
+		  display: block;
+	}
+
+	.left {
+		width: 100%;
+		margin: 10px;
+		margin-top: 250px;
+	}
+
+	.center {
+		width: 100%;
+		margin: 10px;
+	}
+
+	.right {
+		width: 100%;
+		margin: 10px;
+	}
+
+	header {
+		overflow-y: scroll;
+	}
+
+}
+
+@media(max-width: 990px) {
+
+	.logo {
+		  position: fixed;
+		  top: 0;
+	}
+
+	nav ul {
+		  max-height: 0px;
+		  background: #000;
+	}
+
+	nav.black ul {
+		  background: #000;
+	}
+
+	.showing {
+		  max-height: 34em;
+	}
+
+	nav ul li {
+		  box-sizing: border-box;
+		  width: 100%;
+		  padding: 24px;
+		  text-align: center;
+	}
+
+	.menu-icon {
+		  display: block;
+	}
+
+	.left {
+		width: 75%;
+		margin: 10px;
+		margin-top: 250px;
+		margin-left: 100px;
+	}
+
+	.center {
+		width: 75%;
+		margin: 10px;
+		margin-left: 100px;
+	}
+
+	.right {
+		width: 75%;
+		margin: 10px;
+		margin-left: 100px;
+	}
+
+	header {
+		overflow-y: scroll;
+	}
+
+}
