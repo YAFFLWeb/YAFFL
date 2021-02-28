@@ -103,11 +103,11 @@ nav ul li a:hover {
     font-family: 'Bebas Neue', cursive;
  }
  .left, .right, .center {
-    margin-top: 250px;
+    margin-top: 225px;
     float: left;
     width: 33%;
     padding: 10px;
-    height: 500px;
+    height: 550px;
     text-align: center;
     border-radius: 25px;
     margin-left: 3px;
@@ -138,60 +138,6 @@ nav ul li a:hover {
  .container:after {
     clear: both;
  }
-
- @media(max-width: 400px) {
-
-	.logo {
-		  position: fixed;
-		  top: 0;
-	}
-
-	nav ul {
-		  max-height: 0px;
-		  background: #000;
-	}
-
-	nav.black ul {
-		  background: #000;
-	}
-
-	.showing {
-		  max-height: 34em;
-	}
-
-	nav ul li {
-		  box-sizing: border-box;
-		  width: 100%;
-		  padding: 24px;
-		  text-align: center;
-	}
-
-	.menu-icon {
-		  display: block;
-	}
-
-	.left {
-		width: 100%;
-		margin: 10px;
-		margin-top: 250px;
-	}
-
-	.center {
-		width: 100%;
-		margin: 10px;
-	}
-
-	.right {
-		width: 100%;
-		margin: 10px;
-	}
-
-	header {
-		overflow-y: scroll;
-	}
-
-}
-
 
  @media(max-width: 786px) {
 
@@ -280,20 +226,20 @@ nav ul li a:hover {
 	.left {
 		width: 75%;
 		margin: 10px;
-		margin-top: 250px;
-		margin-left: 100px;
+		margin-top: 125px;
+		margin-left: 75px;
 	}
 
 	.center {
 		width: 75%;
 		margin: 10px;
-		margin-left: 100px;
+		margin-left: 75px;
 	}
 
 	.right {
 		width: 75%;
 		margin: 10px;
-		margin-left: 100px;
+		margin-left: 75px;
 	}
 
 	header {
