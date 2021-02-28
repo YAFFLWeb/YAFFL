@@ -105,12 +105,12 @@ nav ul li a:hover {
  .left, .right, .center {
     margin-top: 225px;
     float: left;
-    width: 33%;
+    width: 32%;
     padding: 10px;
     height: 550px;
     text-align: center;
     border-radius: 25px;
-    margin-left: 3px;
+    margin-left: 14px;
     box-shadow: 0px 0px 10px #b08b1c;
  }
  .left {
