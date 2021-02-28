@@ -3,8 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@600&display=swap");
 
-
-
 html, body {
 	margin: 0;
 	padding: 0;
@@ -18,10 +16,7 @@ body {
 header {
 	width: 100%;
 	height: 100vh;
-	background: url(images/cover.jpg) no-repeat 50% 50%;
 	background-color: #000;
-	background-size: auto;
-	background-position-y: center;
 	overflow-x: hidden;
 	overflow-y: hidden;
 
@@ -29,79 +24,13 @@ header {
 
 }
 
-.register{
-	z-index: 0.5;
-	position: relative;
-	
+.content {
+	width: 94%;
+	margin: 4em auto;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
 }
-
-#reg {
-    width: 20rem;
-    height: 7rem;
-    font-size: 30px;
-    text-align: center;
-    line-height: 7rem;
-    font-family: 'Bebas Neue', cursive;
-
-   	
-
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: relative;
-    transition: 0.3s;
-    margin: 3rem;
-	margin-left: 75%;
-	margin-top: 20%;
-	z-index: 2;
-	border-radius: 20px;
-	color: white;
-}
-
-#reg::before,
-#reg::after {
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 0;
-    left: 0;
-    transition: 0.3s;
-	border-radius: 20px;
-}
-
-#reg::before {
-    background-color: #b08b1c;
-    z-index: -1;
-	border-radius: 20px;
-	border-color: #b08b1c;
-	
-}
-
-#reg::after {
-    background-color: white;
-    transform: translate(1.5rem, 1.5rem);
-    z-index: -2;
-	border-radius: 20px;
-	
-}
-
-#reg:hover {
-    transform: translate(1.5rem, 1.5rem);
-    color: black;
-	border-radius: 20px;
-}
-
-#reg:hover::before {
-    background-color: white;
-	border-radius: 20px;
-}
-
-#reg:hover::after {
-    background-color: #b08b1c;
-    transform: translate(-1.5rem, -1.5rem);
-	border-radius: 20px;
-}
-
 
 .logo {
 	line-height: 60px;
@@ -168,13 +97,6 @@ nav ul li a:hover {
 	display: none;
 }
 
-.welcome {
-	color: white;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 150px;
-	margin-top: 19%;
-}
-
 
 
 
@@ -210,9 +132,39 @@ nav ul li a:hover {
 		  display: block;
 	}
 
-	.welcome {
-		margin-top: 55%;
-		font-size: 100px;
-	}
-
 }
+
+.container {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+ }
+ .left, .right, .center {
+    margin-top: 250px;
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 1px;
+ }
+ .left {
+    background-color: white;
+    color: black;
+    text-align: justify;
+ }
+ .right {
+    background-color: white;
+    color: black;
+    text-align: justify;
+ }
+ .center {
+    background-color: white;
+    color: black;
+    background-size: cover;
+    text-align: justify;
+    
+ }
+ .container:after {
+    clear: both;
+ }
