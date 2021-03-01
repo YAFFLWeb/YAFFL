@@ -24,82 +24,6 @@ header {
 	background-position-y: center;
 	overflow-x: hidden;
 	overflow-y: hidden;
-
-
-
-}
-
-.register{
-	z-index: 0.5;
-	position: relative;
-	
-}
-
-#reg {
-    width: 20rem;
-    height: 7rem;
-    font-size: 30px;
-    text-align: center;
-    line-height: 7rem;
-    font-family: 'Bebas Neue', cursive;
-
-   	
-
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: relative;
-    transition: 0.3s;
-    margin: 3rem;
-	margin-left: 75%;
-	margin-top: 20%;
-	z-index: 2;
-	border-radius: 20px;
-	color: white;
-}
-
-#reg::before,
-#reg::after {
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 0;
-    left: 0;
-    transition: 0.3s;
-	border-radius: 20px;
-}
-
-#reg::before {
-    background-color: #b08b1c;
-    z-index: -1;
-	border-radius: 20px;
-	border-color: #b08b1c;
-	
-}
-
-#reg::after {
-    background-color: white;
-    transform: translate(1.5rem, 1.5rem);
-    z-index: -2;
-	border-radius: 20px;
-	
-}
-
-#reg:hover {
-    transform: translate(1.5rem, 1.5rem);
-    color: black;
-	border-radius: 20px;
-}
-
-#reg:hover::before {
-    background-color: white;
-	border-radius: 20px;
-}
-
-#reg:hover::after {
-    background-color: #b08b1c;
-    transform: translate(-1.5rem, -1.5rem);
-	border-radius: 20px;
 }
 
 
@@ -125,7 +49,7 @@ nav {
 nav ul {
 	line-height: 60px;
 	list-style: none;
-	background: rgba(0, 0, 0, 0);
+	background: black;
 	overflow: hidden;
 	color: #fff;
 	padding: 0;
@@ -215,6 +139,90 @@ nav ul li a:hover {
 		font-size: 100px;
 	}
 
+	header {
+		background-position-y: 175%;
+	}
 
+
+
+}
+
+@media(min-width: 786px) and (max-width: 1900px) {
+
+	.logo {
+		line-height: 60px;
+		position: fixed;
+		float: left;
+		margin-left: -50px;
+		margin-top: 5px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	
+	nav {
+		position: fixed;
+		width: 100%;
+		line-height: 60px;
+		z-index: 3;
+	}
+	
+	nav ul {
+		line-height: 60px;
+		list-style: none;
+		background: black;
+		overflow: hidden;
+		color: #fff;
+		padding: 0;
+		text-align: right;
+		margin: 0;
+		padding-right: 40px;
+		transition: 1s;
+	}
+	
+	nav.black ul {
+		background: #000;
+	}
+	
+	nav ul li {
+		display: inline-block;
+		padding: 16px 40px;;
+	}
+	
+	
+	nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.5em;
+	}
+	
+	nav ul li a:hover {
+		text-decoration: none;
+		color: #b08b1c;
+	}
+	
+	.menu-icon {
+		line-height: 60px;
+		width: 100%;
+		background: #000;
+		text-align: right;
+		box-sizing: border-box;
+		padding: 15px 24px;
+		cursor: pointer;
+		color: #fff;
+		display: none;
+	}
+	
+	.welcome {
+		color: white;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 150px;
+		margin-top: 19%;
+	}
+
+	header {
+		background-position-y: 100%;
+	}
 
 }
