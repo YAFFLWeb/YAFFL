@@ -193,7 +193,7 @@ nav ul li a:hover {
 
 }
 
-@media(max-width: 990px) {
+@media(min-width: 787px) {
 
 	.logo {
 		  position: fixed;
@@ -225,28 +225,28 @@ nav ul li a:hover {
 	}
 
 	.left {
-		width: 75%;
-		margin: 10px;
-		margin-top: 200px;
-		margin-left: 50px;
-
+		width: 32%;
+		margin: 5px;
+		margin-top: 150px;
 	}
 
 
 	.center {
-		width: 75%;
-		margin: 10px;
-		margin-left: 50px;
+		width: 32%;
+		margin: 5px;
+		margin-top: 150px;
+		
 	}
 
 	.right {
-		width: 75%;
-		margin: 10px;
-		margin-left: 50px;
+		width: 32%;
+		margin: 5px;
+		margin-top: 150px;
+		
 	}
 
 	header {
-		overflow-y: scroll;
+		overflow-y: hidden;
 	}
 
 }
