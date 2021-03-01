@@ -140,14 +140,14 @@ nav ul li a:hover {
 	}
 
 	header {
-		background-position-y: 175%;
+		background-position-y: 125%;
 	}
 
 
 
 }
 
-@media(min-width: 786px) and (max-width: 1900px) {
+@media(min-width: 812px) and (max-width: 1900px) {
 
 	.logo {
 		line-height: 60px;
@@ -222,7 +222,99 @@ nav ul li a:hover {
 	}
 
 	header {
-		background-position-y: 100%;
+		background-position-y: 300%;
 	}
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+	.logo {
+		position: fixed;
+		top: 0;
+  }
+
+  nav ul {
+		max-height: 0px;
+		background: #000;
+  }
+
+  nav.black ul {
+		background: #000;
+  }
+
+  .showing {
+		max-height: 34em;
+  }
+
+  nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px;
+		text-align: center;
+  }
+
+  .menu-icon {
+		display: block;
+  }
+
+  .welcome {
+	  margin-top: 55%;
+	  font-size: 100px;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+	.logo {
+		position: fixed;
+		top: 0;
+  }
+
+  nav ul {
+		max-height: 0px;
+		background: #000;
+  }
+
+  nav.black ul {
+		background: #000;
+  }
+
+  .showing {
+		max-height: 34em;
+  }
+
+  nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px;
+		text-align: center;
+  }
+
+  .menu-icon {
+		display: block;
+  }
+
+  .welcome {
+	  margin-top: 55%;
+	  font-size: 100px;
+  }
+
+  header {
+	  background-position-y: 300%;
+  }
 
 }

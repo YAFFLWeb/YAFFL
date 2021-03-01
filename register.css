@@ -38,10 +38,8 @@ header {
 	float: left;
 	margin-left: -50px;
 	margin-top: 5px;
-	color: #fff;
-	font-weight: bold;
-	font-size: 20px;
 	letter-spacing: 2px;
+
 }
 
 nav {
@@ -111,7 +109,7 @@ nav ul li a:hover {
     text-align: center;
     border-radius: 25px;
     margin-left: 14px;
-    box-shadow: 0px 0px 10px #b08b1c;
+	box-shadow: 0px 0px 10px #b08b1c;
  }
  .left {
     background-color: white;
@@ -119,7 +117,9 @@ nav ul li a:hover {
     text-align: justify;
 	background-image: url(images/coed.jpg);
 	background-size: cover;
+	
  }
+
  .right {
     background-color: white;
     color: rgb(172, 170, 170);
@@ -228,19 +228,21 @@ nav ul li a:hover {
 		width: 75%;
 		margin: 10px;
 		margin-top: 200px;
-		margin-left: 55px;
+		margin-left: 50px;
+
 	}
+
 
 	.center {
 		width: 75%;
 		margin: 10px;
-		margin-left: 55px;
+		margin-left: 50px;
 	}
 
 	.right {
 		width: 75%;
 		margin: 10px;
-		margin-left: 55px;
+		margin-left: 50px;
 	}
 
 	header {
