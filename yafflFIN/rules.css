@@ -7,23 +7,23 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background-color: #000;
 }
 
 body {
 	font-family: 'Bebas Neue', cursive;
 }
 
-header {
-	width: 100%;
-	height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-	  /* height: calc(var(--vh, 1vh) * 100); */
-	background: url(images/cover.jpg) no-repeat 50% 50%;
-	background-color: #000;
-	background-size: auto;
-	background-position-y: 90px;
-	overflow-x: hidden;
-	overflow-y: hidden;
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 75px;
 }
+
+a:hover {
+    color:#b08b1c;
+}
+
 
 .icon {
 	float: right;
@@ -67,6 +67,7 @@ nav {
 	z-index: 3;
 	background-color: #000;
 	height: 125px;
+	top: 0;
 }
 
 nav ul {
@@ -80,6 +81,7 @@ nav ul {
 	margin-left: 7%;
 	padding-right: 40px;
 	max-height: 100%;
+	top: 0;
 }
 
 nav.black ul {
@@ -121,13 +123,33 @@ nav ul li a:hover {
 
 }
 
-
-.welcome {
-	color: white;
+.fb-links{
+	background: black;
+	color: #fff;
+	text-align: center;
+	max-height: 100%;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 150px;
-	margin-top: 19%;
+	justify-content: center;
+	
 }
+
+.fb-links a{
+	color: white;
+	text-decoration: none!important;
+	font-size: 75px;
+}
+
+.fb-links a:hover {
+	color: #b08b1c;
+}
+
+.ruletitle {
+	font-size: 100px;
+	padding-top: 8%;
+	color: #b08b1c;
+}
+
+
 
 @media(max-width: 1175px) {
 	.icon {
@@ -175,22 +197,10 @@ nav ul li a:hover {
 
   nav ul li {
 		box-sizing: border-box;
-		width: 80%;
+		width: 100%;
 		padding: 24px;
 		text-align: center;
-		margin-left: 15px;
-		background-color: #b08b1c;
   }
-
-  nav ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
 	
 	.menu {
 		font-family: 'Bebas Neue', cursive;
@@ -217,100 +227,93 @@ nav ul li a:hover {
 	.showing {
 			max-height: 30em;
 			display: block;
+		}	
+
+		.fb-links{
+			padding-top: 5%;
 		}
 	
-	.welcome {
-		color: white;
-		font-family: 'Bebas Neue', cursive;
-		font-size: 150px;
-		margin-top: 19%;
-
-
 }
+
+@media (max-width: 1000px) {
+	.fb-links{
+		padding-top: 5%;
+	}
+
+	.fb-links a{
+		font-size: 50px;
+	}
+
+	.ruletitle {
+		font-size: 75px;
+	}
+	
 }
 
 @media (max-width: 768px) {
-	.welcome {
-		color: white;
-		font-family: 'Bebas Neue', cursive;
-		font-size: 125px;
-		margin-top: 35%;
-	}
-
 	nav ul {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
+		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 70%;
-		padding: 24px;
-		text-align: center;
-		margin-left: 15px;
-		background-color: #b08b1c;
-  }
-
-  nav ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
+	.menu-icon{
+		z-index: 9999;
+	}
 
 	.showing {
 		max-height: 30em;
 		display: block;
 	}
+
+	.fb-links{
+		padding-top: 16%;
+	}
+
+	.fb-links a{
+		font-size: 50px;
+	}
+
+	.ruletitle {
+		font-size: 75px;
+	}
+	
 }
 
 
 
 @media (max-width: 425px) {
-	.welcome {
-		color: white;
-		font-family: 'Bebas Neue', cursive;
-		font-size: 125px;
-		margin-top: 35%;
-	}
 
 	nav ul {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
+		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 60%;
-		padding: 24px;
-		text-align: center;
-		margin-left: 15px;
-		background-color: #b08b1c;
-  }
-
-  nav ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
 
 	.showing {
 		max-height: 30em;
 		display: block;
 	}
+
+	.fb-links{
+		padding-top: 25%;
+	}
+
+	.fb-links a{
+		font-size: 50px;
+	}
+
+	.ruletitle {
+		font-size: 75px;
+	}
+	
+	
+
 }
 
 @media (max-width: 375px) {
@@ -323,45 +326,33 @@ nav ul li a:hover {
 		z-index: 9999;
 	}
 
-	.welcome {
-		color: white;
-		font-family: 'Bebas Neue', cursive;
-		font-size: 85px;
-		margin-top: 65%;
-	}
-
 	nav ul {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
+		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 		
 	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 50%;
-		padding: 24px;
-		text-align: center;
-		margin-left: 5px;
-		background-color: #b08b1c;
-  }
-
-  nav ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
 
 	.showing {
 		max-height: 30em;
 		display: block;
 	}
 
-}
+	.fb-links{
+		padding-top: 30%;
+	}
 
+	.fb-links a{
+		font-size: 50px;
+	}
+
+	.ruletitle {
+		font-size: 75px;
+	}
+		
+	
+
+}
