@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Bebas Neue', cursive;
 }
 
 header {
@@ -20,26 +20,35 @@ header {
 	overflow-x: hidden;
 	overflow-y: hidden;
 
-
-
 }
 
-.content {
-	width: 94%;
-	margin: 4em auto;
-	font-size: 20px;
-	line-height: 30px;
-	text-align: justify;
+.icon {
+	float: right;
+	padding: 20px 30px;
+	line-height: 0%;
+	margin-top: 0.5%;
+	margin-right: 1%;
 }
+
+.icon:hover {
+  opacity: 0.7;
+}
+
 
 .logo {
 	line-height: 60px;
 	position: fixed;
 	float: left;
-	margin-left: -50px;
-	margin-top: 5px;
+	margin-left: -10px;
+	margin-top: 11px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
 	letter-spacing: 2px;
+}
 
+.logo:hover {
+	opacity: 0.7;
 }
 
 nav {
@@ -47,19 +56,21 @@ nav {
 	width: 100%;
 	line-height: 60px;
 	z-index: 3;
+	background-color: #000;
+	height: 125px;
 }
 
 nav ul {
 	line-height: 60px;
 	list-style: none;
-	background: rgba(0, 0, 0, 0);
+	background: black;
 	overflow: hidden;
 	color: #fff;
-	padding: 0;
-	text-align: right;
-	margin: 0;
+	padding-top: 0px;
+	text-align: center;
+	margin-left: 7%;
 	padding-right: 40px;
-	transition: 1s;
+	max-height: 100%;
 }
 
 nav.black ul {
@@ -68,7 +79,8 @@ nav.black ul {
 
 nav ul li {
 	display: inline-block;
-	padding: 16px 40px;;
+	padding: 25px 40px;
+	margin-top: 1%;
 }
 
 
@@ -83,109 +95,189 @@ nav ul li a:hover {
 	color: #b08b1c;
 }
 
+.menu {
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
 .menu-icon {
 	line-height: 60px;
-	width: 100%;
+	width: 25%;
 	background: #000;
-	text-align: right;
 	box-sizing: border-box;
-	padding: 15px 24px;
+	padding-top: 30px;
 	cursor: pointer;
 	color: #fff;
 	display: none;
-}
 
+}
 
 .container {
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
  }
- .left, .right, .center {
-    margin-top: 225px;
-    float: left;
-    width: 32%;
-    padding: 10px;
-    height: 550px;
-    text-align: center;
-    border-radius: 25px;
-    margin-left: 14px;
-	box-shadow: 0px 0px 10px #b08b1c;
- }
- .left {
-    background-color: white;
-    color: rgb(172, 170, 170);
-    text-align: justify;
+.box-1, .box-2, .box-3, .box-4{
+		margin-top: 225px;
+		float: left;
+		width: 20%;
+		padding: 10px;
+		height: 550px;
+		text-align: center;
+		border-radius: 25px;
+		margin-left: 25px;
+		box-shadow: 0px 0px 10px #b08b1c;
+}
+
+.box-1{
+	font-family: 'Bebas Neue', cursive;
 	background-image: url(images/coed.jpg);
 	background-size: cover;
-	
- }
+	text-align: left;
+	color: white;
+	margin-left: 135px;
+}
 
- .right {
-    background-color: white;
-    color: rgb(172, 170, 170);
-    text-align: justify;
-	background-image: url(images/york2.jpg);
-	background-size: cover;
- }
- .center {
-    background-color: white;
-    color: rgb(172, 170, 170);
-    background-size: cover;
-    text-align: justify;
+.box-2{
+	font-family: 'Bebas Neue', cursive;
 	background-image: url(images/hanover3.jpg);
 	background-size: cover;
-    
- }
- .container:after {
-    clear: both;
- }
+	text-align: left;
+	color: white;
+}
 
- @media(max-width: 786px) {
+.box-3{
+	font-family: 'Bebas Neue', cursive;
+	background-image: url(images/york2.jpg);
+	background-size: cover;
+	text-align: left;
+	color: white;
+}
 
+.box-4{
+	font-family: 'Bebas Neue', cursive;
+	background-image: url(images/hanover2.jpg);
+	background-size: cover;
+	text-align: left;
+	color: white;
+}
+ 
+
+ @media(max-width: 1175px) {
+	.icon {
+		position: fixed;
+		float: right;
+		padding: 20px 30px;
+		line-height: 60px;
+		top: 0.75%;
+		right: 1%;
+	}
+	
+	.icon:hover {
+	  opacity: 0.7;
+	}
+	
+	
 	.logo {
-		  position: fixed;
-		  top: 0;
+		line-height: 60px;
+		position: fixed;
+		float: left;
+		left: -10px;
+		top: 2px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 2px;
 	}
 
 	nav ul {
-		  max-height: 0px;
-		  background: #000;
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
 	}
 
-	nav.black ul {
-		  background: #000;
-	}
+  nav.black ul {
+		background: #000;
+  }
 
-	.showing {
-		  max-height: 34em;
+  nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px;
+		text-align: center;
+  }
+	
+	.menu {
+		font-family: 'Bebas Neue', cursive;
+		max-height: 100%;
+		
 	}
-
-	nav ul li {
-		  box-sizing: border-box;
-		  width: 100%;
-		  padding: 24px;
-		  text-align: center;
-	}
+	
 
 	.menu-icon {
-		  display: block;
-	}
+		line-height: 60px;
+		width: 25%;
+		background: #000;
+		box-sizing: border-box;
+		padding-top: 30px;
+		cursor: pointer;
+		color: #fff;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
 
-	.left {
-		width: 100%;
-		margin: 10px;
-		margin-top: 250px;
 	}
+	
+	.showing {
+			max-height: 30em;
+			display: block;
+		}
 
-	.center {
-		width: 100%;
-		margin: 10px;
-	}
-
-	.right {
-		width: 100%;
-		margin: 10px;
-	}
+		.box-1{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/coed.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 90px;
+			width: 40%;
+		}
+		
+		.box-2{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover3.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 22px;
+			width: 40%;
+		}
+		
+		.box-3{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/york2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 90px;
+			width: 40%;
+		}
+		
+		.box-4{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 22px;
+			width: 40%;
+		}
 
 	header {
 		overflow-y: scroll;
@@ -193,60 +285,195 @@ nav ul li a:hover {
 
 }
 
-@media(min-width: 787px) {
-
-	.logo {
-		  position: fixed;
-		  top: 0;
-	}
+@media (max-width: 768px) {
 
 	nav ul {
-		  max-height: 0px;
-		  background: #000;
-	}
-
-	nav.black ul {
-		  background: #000;
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
 	}
 
 	.showing {
-		  max-height: 34em;
+		max-height: 30em;
+		display: block;
 	}
 
-	nav ul li {
-		  box-sizing: border-box;
-		  width: 100%;
-		  padding: 24px;
-		  text-align: center;
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 25px;
+		width: 45%;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 22px;
+		width: 45%;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 25px;
+		width: 45%;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 45%;
+	}
+}
+
+
+
+@media (max-width: 425px) {
+
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
 	}
 
-	.menu-icon {
-		  display: block;
+	.showing {
+		max-height: 40em;
+		display: block;
 	}
 
-	.left {
-		width: 32%;
-		margin: 5px;
-		margin-top: 150px;
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 22px;
+		width: 90%;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 90%;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 90%;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 90%;
+	}
+}
+
+@media (max-width: 375px) {
+
+	.logo{
+		margin-left: -25px;
 	}
 
+	.menu-icon{
+		z-index: 9999;
+	}
 
-	.center {
-		width: 32%;
-		margin: 5px;
-		margin-top: 150px;
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
 		
 	}
 
-	.right {
-		width: 32%;
-		margin: 5px;
-		margin-top: 150px;
-		
+	.showing {
+		max-height: 40em;
+		display: block;
 	}
 
-	header {
-		overflow-y: hidden;
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 18px;
+		width: 90%;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 18px;
+		width: 90%;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 18px;
+		width: 90%;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 18px;
+		width: 90%;
 	}
 
 }
+
