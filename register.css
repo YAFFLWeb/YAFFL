@@ -31,8 +31,14 @@ header {
 }
 
 .icon:hover {
-  opacity: 0.7;
-}
+	opacity: 0.7;
+	text-decoration: none!important;
+  }
+  
+  .fab {
+	text-decoration: none!important;
+	  color: #4267B2;
+  }
 
 
 .logo {
@@ -162,7 +168,20 @@ nav ul li:hover {
 	color: white;
 }
 
-@media(max-width: 2560px) and (min-width: 1176px){
+@media(max-width: 2560px) and (min-width: 2100px){
+
+	.container {
+		box-sizing: border-box;
+		font-family: 'Bebas Neue', cursive;
+	 }
+	.box-1, .box-2, .box-3, .box-4{
+			width: 20%;	
+	}
+
+	.box-1{
+		margin-left: 215px;
+	}
+
 	.box-1:hover{
 		box-shadow: 0px 0px 50px #b08b1c;
 		margin-top: 200px;
@@ -185,6 +204,360 @@ nav ul li:hover {
 		box-shadow: 0px 0px 50px #b08b1c;
 		margin-top: 200px;
 		transition: 0.5s;
+	}
+}
+
+
+@media(max-width: 2100px) and (min-width: 1441px){
+
+	.container {
+		box-sizing: border-box;
+		font-family: 'Bebas Neue', cursive;
+	 }
+	.box-1, .box-2, .box-3, .box-4{
+			width: 20%;	
+	}
+
+	.box-1{
+		margin-left: 135px;
+	}
+
+	.box-1:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-2:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-3:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-4:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+}
+
+@media (max-width: 1440px) {
+
+	.icon {
+		position: fixed;
+		float: right;
+		padding: 20px 30px;
+		line-height: 60px;
+		top: 0.75%;
+		right: 1%;
+	}
+	
+	.icon:hover {
+	  opacity: 0.7;
+	}
+	
+	
+	.logo {
+		line-height: 60px;
+		position: fixed;
+		float: left;
+		left: -10px;
+		top: 2px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
+
+  nav.black ul {
+		background: #000;
+  }
+
+  nav ul li {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 24px;
+	text-align: center;
+	margin-left: 15px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+nav ul li:hover {
+background-color: #b08b1c;
+color: black;
+}
+
+nav ul li {
+text-decoration: none;
+color: white;
+font-size: 1.5em;
+}
+	
+	.menu {
+		font-family: 'Bebas Neue', cursive;
+		max-height: 100%;
+		
+	}
+	
+
+	.menu-icon {
+		line-height: 60px;
+		width: 25%;
+		background: #000;
+		box-sizing: border-box;
+		padding-top: 30px;
+		cursor: pointer;
+		color: #fff;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+	
+	.showing {
+			max-height: 30em;
+			display: block;
+		}
+
+		.box-1{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/coed.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 130px;
+			width: 40%;
+		}
+		
+		.box-2{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover3.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 22px;
+			width: 40%;
+		}
+		
+		.box-3{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/york2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 130px;
+			width: 40%;
+		}
+		
+		.box-4{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 22px;
+			width: 40%;
+		}
+
+		.box-1:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-2:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-3:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-4:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+
+	header {
+		overflow-y: scroll;
+	}
+
+}
+
+@media(max-width: 1300px) {
+	.icon {
+		position: fixed;
+		float: right;
+		padding: 20px 30px;
+		line-height: 60px;
+		top: 0.75%;
+		right: 1%;
+	}
+	
+	.icon:hover {
+	  opacity: 0.7;
+	}
+	
+	
+	.logo {
+		line-height: 60px;
+		position: fixed;
+		float: left;
+		left: -10px;
+		top: 2px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
+
+  nav.black ul {
+		background: #000;
+  }
+
+  nav ul li {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 24px;
+	text-align: center;
+	margin-left: 15px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+nav ul li:hover {
+background-color: #b08b1c;
+color: black;
+}
+
+nav ul li {
+text-decoration: none;
+color: white;
+font-size: 1.5em;
+}
+	
+	.menu {
+		font-family: 'Bebas Neue', cursive;
+		max-height: 100%;
+		
+	}
+	
+
+	.menu-icon {
+		line-height: 60px;
+		width: 25%;
+		background: #000;
+		box-sizing: border-box;
+		padding-top: 30px;
+		cursor: pointer;
+		color: #fff;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+	
+	.showing {
+			max-height: 30em;
+			display: block;
+		}
+
+		.box-1{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/coed.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 118px;
+			width: 40%;
+		}
+		
+		.box-2{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover3.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 135px;
+			margin-left: 22px;
+			width: 40%;
+		}
+		
+		.box-3{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/york2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 118px;
+			width: 40%;
+		}
+		
+		.box-4{
+			font-family: 'Bebas Neue', cursive;
+			background-image: url(images/hanover2.jpg);
+			background-size: cover;
+			text-align: left;
+			color: white;
+			margin-top: 25px;
+			margin-left: 22px;
+			width: 40%;
+		}
+
+		.box-1:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-2:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-3:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-4:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+
+	header {
+		overflow-y: scroll;
 	}
 }
 
@@ -282,7 +655,7 @@ font-size: 1.5em;
 			text-align: left;
 			color: white;
 			margin-top: 135px;
-			margin-left: 90px;
+			margin-left: 105px;
 			width: 40%;
 		}
 		
@@ -304,7 +677,7 @@ font-size: 1.5em;
 			text-align: left;
 			color: white;
 			margin-top: 25px;
-			margin-left: 90px;
+			margin-left: 105px;
 			width: 40%;
 		}
 		
@@ -343,6 +716,100 @@ font-size: 1.5em;
 		overflow-y: scroll;
 	}
 
+}
+
+@media (max-width: 1100px){
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 50%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+	.showing {
+		max-height: 30em;
+		display: block;
+	}
+
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 35px;
+		width: 45%;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 22px;
+		width: 45%;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 35px;
+		width: 45%;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 45%;
+	}
+
+	.box-1:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-2:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-3:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-4:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
 }
 
 @media(max-width: 900px){

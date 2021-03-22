@@ -133,6 +133,7 @@ nav ul li:hover {
     text-decoration: none;
     color: white;
 	list-style-type: none;
+    font-size: 50px;
 }
 
 .fb-links ul li a:hover {
@@ -142,6 +143,16 @@ nav ul li:hover {
 
 p{
 	font-size: 60px;
+}
+
+.fb-links ul li h1{
+    color:#b08b1c;
+    font-size: 75px;
+}
+
+mark.gold{
+    color:#b08b1c;
+    background: none;
 }
 
 @media (max-width: 2400px){
