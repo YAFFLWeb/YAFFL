@@ -14,16 +14,6 @@ body {
 	font-family: 'Bebas Neue', cursive;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 75px;
-}
-
-a:hover {
-    color:#b08b1c;
-}
-
 
 .icon {
 	float: right;
@@ -95,13 +85,13 @@ nav ul li {
 }
 
 
-nav ul li a {
+nav ul li {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.5em;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 	text-decoration: none;
 	color: #b08b1c;
 }
@@ -196,11 +186,25 @@ nav ul li a:hover {
   }
 
   nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 24px;
-		text-align: center;
-  }
+	box-sizing: border-box;
+	width: 50%;
+	padding: 24px;
+	text-align: center;
+	margin-left: 15px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+nav ul li:hover {
+background-color: #b08b1c;
+color: black;
+}
+
+nav ul li {
+text-decoration: none;
+color: white;
+font-size: 1.5em;
+}
 	
 	.menu {
 		font-family: 'Bebas Neue', cursive;
@@ -255,10 +259,28 @@ nav ul li a:hover {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
-		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 70%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 	.menu-icon{
 		z-index: 9999;
 	}
@@ -290,10 +312,28 @@ nav ul li a:hover {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
-		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 60%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 
 	.showing {
 		max-height: 30em;
@@ -330,11 +370,29 @@ nav ul li a:hover {
 		background: black;
 		text-align: center;
 		margin-left: 0%;
-		transition: 1s;
 		display: none;
 		overflow-y: scroll;
 		
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 50%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 5px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 
 	.showing {
 		max-height: 30em;

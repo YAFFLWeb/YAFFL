@@ -84,13 +84,13 @@ nav ul li {
 }
 
 
-nav ul li a {
+nav ul li {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.5em;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 	text-decoration: none;
 	color: #b08b1c;
 }
@@ -126,6 +126,7 @@ nav ul li a:hover {
 		border-radius: 25px;
 		margin-left: 25px;
 		box-shadow: 0px 0px 10px #b08b1c;
+		
 }
 
 .box-1{
@@ -160,7 +161,32 @@ nav ul li a:hover {
 	text-align: left;
 	color: white;
 }
- 
+
+@media(max-width: 2560px) and (min-width: 1176px){
+	.box-1:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-2:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-3:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+	
+	.box-4:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+		margin-top: 200px;
+		transition: 0.5s;
+	}
+}
 
  @media(max-width: 1175px) {
 	.icon {
@@ -202,11 +228,25 @@ nav ul li a:hover {
   }
 
   nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 24px;
-		text-align: center;
-  }
+	box-sizing: border-box;
+	width: 50%;
+	padding: 24px;
+	text-align: center;
+	margin-left: 15px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+nav ul li:hover {
+background-color: #b08b1c;
+color: black;
+}
+
+nav ul li {
+text-decoration: none;
+color: white;
+font-size: 1.5em;
+}
 	
 	.menu {
 		font-family: 'Bebas Neue', cursive;
@@ -279,10 +319,124 @@ nav ul li a:hover {
 			width: 40%;
 		}
 
+		.box-1:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-2:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-3:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+		
+		.box-4:hover{
+			box-shadow: 0px 0px 20px #b08b1c;
+			transition: 0.5s;
+		}
+
 	header {
 		overflow-y: scroll;
 	}
 
+}
+
+@media(max-width: 900px){
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 50%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+	.showing {
+		max-height: 30em;
+		display: block;
+	}
+
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 35px;
+		width: 45%;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 22px;
+		width: 45%;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 35px;
+		width: 45%;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 22px;
+		width: 45%;
+	}
+
+	.box-1:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-2:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-3:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
+	
+	.box-4:hover{
+		box-shadow: 0px 0px 50px #b08b1c;
+	}
 }
 
 @media (max-width: 768px) {
@@ -294,6 +448,25 @@ nav ul li a:hover {
 		display: none;
 		overflow-y: scroll;
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 60%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 
 	.showing {
 		max-height: 30em;
@@ -345,7 +518,131 @@ nav ul li a:hover {
 	}
 }
 
+@media (max-width: 600px){
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
 
+	.showing {
+		max-height: 30em;
+		display: block;
+	}
+
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 60px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 60px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 60px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 60px;
+		width: 80%;
+		height: 500px;
+	}
+}
+
+@media (max-width: 525px){
+	nav ul {
+		background: black;
+		text-align: center;
+		margin-left: 0%;
+		display: none;
+		overflow-y: scroll;
+	}
+
+	.showing {
+		max-height: 30em;
+		display: block;
+	}
+
+	.box-1{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/coed.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 135px;
+		margin-left: 55px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-2{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover3.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 55px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-3{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/york2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 55px;
+		width: 80%;
+		height: 500px;
+	}
+	
+	.box-4{
+		font-family: 'Bebas Neue', cursive;
+		background-image: url(images/hanover2.jpg);
+		background-size: cover;
+		text-align: left;
+		color: white;
+		margin-top: 25px;
+		margin-left: 55px;
+		width: 80%;
+		height: 500px;
+	}
+}
 
 @media (max-width: 425px) {
 
@@ -356,6 +653,25 @@ nav ul li a:hover {
 		display: none;
 		overflow-y: scroll;
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 60%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 15px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 
 	.showing {
 		max-height: 40em;
@@ -425,6 +741,25 @@ nav ul li a:hover {
 		overflow-y: scroll;
 		
 	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 50%;
+		padding: 24px;
+		text-align: center;
+		margin-left: 5px;
+  }
+
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
 
 	.showing {
 		max-height: 40em;

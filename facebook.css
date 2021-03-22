@@ -58,7 +58,7 @@ nav {
 	z-index: 3;
 	background-color: #000;
 	height: 125px;
-    top: 0;
+	top: 0;
 }
 
 nav ul {
@@ -72,6 +72,7 @@ nav ul {
 	margin-left: 7%;
 	padding-right: 40px;
 	max-height: 100%;
+	top: 0;
 }
 
 nav.black ul {
@@ -80,19 +81,18 @@ nav.black ul {
 
 nav ul li {
 	display: inline-block;
-	padding: 9px 40px;
+	padding: 25px 40px;
 	margin-top: 1%;
 }
 
 
-nav ul li a {
+nav ul li {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.5em;
-    
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 	text-decoration: none;
 	color: #b08b1c;
 }
@@ -147,6 +147,7 @@ p{
 @media (max-width: 2400px){
 	 .fb-links li{
         list-style-type: none;
+		margin-left: 10px;
     }
 
 	.fb-links{
@@ -156,6 +157,8 @@ p{
 	p{
 		font-size: 40px;
 	}
+
+	
 }
 
 @media(max-width: 1175px) {
@@ -204,22 +207,24 @@ p{
   }
 
   nav ul li {
-		box-sizing: border-box;
-		width: 80%;
-		padding: 24px;
-		text-align: center;
-		background-color: #b08b1c;
-		margin-left: 15px;
-  }
-
-  nav ul li a {
-	text-decoration: none;
-	color: white;
+	box-sizing: border-box;
+	width: 50%;
+	padding: 24px;
+	text-align: center;
+	margin-left: 15px;
+	background-color: black;
+	border-radius: 15px;
 }
 
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
+nav ul li:hover {
+background-color: #b08b1c;
+color: black;
+}
+
+nav ul li {
+text-decoration: none;
+color: white;
+font-size: 1.5em;
 }
 	
 	.menu {
@@ -252,14 +257,25 @@ p{
 
 	.fb-links li{
         list-style-type: none;
+		margin-left: 10px;
     }
 
 	.fb-links{
-		padding-top: 5%;
+		margin-top: 20%;
 	}
 
 	p{
 		font-size: 35px;
+	}
+}
+
+@media (max-width: 800px) {
+	.fb-links{
+		margin-top: 25%;
+	}
+
+	.fb-links li{
+		margin-left: 10px;
 	}
 }
 
@@ -275,21 +291,21 @@ p{
 
 	nav ul li {
 		box-sizing: border-box;
-		width: 70%;
+		width: 60%;
 		padding: 24px;
 		text-align: center;
-		background-color: #b08b1c;
 		margin-left: 15px;
   }
 
-  nav ul li a {
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
 	text-decoration: none;
 	color: white;
-}
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
+	font-size: 1.5em;
 }
 
 	.showing {
@@ -299,16 +315,39 @@ p{
 
     .fb-links li{
         list-style-type: none;
+		margin-left: 10px;
     }
 
 	.fb-links{
-		padding-top: 12%;
+		margin-top: 25%;
 	}
 
 	p{
 		font-size: 30px;
 	}
 
+}
+
+@media (max-width: 600px) {
+	.fb-links{
+		margin-top: 30%;
+	}
+
+	.fb-links li{
+        list-style-type: none;
+		margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+	.fb-links{
+		margin-top: 35%;
+	}
+
+	.fb-links li{
+        list-style-type: none;
+		margin-left: 10px;
+    }
 }
 
 
@@ -328,20 +367,19 @@ p{
 		width: 60%;
 		padding: 24px;
 		text-align: center;
-		background-color: #b08b1c;
 		margin-left: 15px;
   }
 
-  nav ul li a {
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
 	text-decoration: none;
 	color: white;
+	font-size: 1.5em;
 }
-
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
-
 	.showing {
 		max-height: 30em;
 		display: block;
@@ -349,10 +387,11 @@ p{
 
     .fb-links li{
         list-style-type: none;
+		margin-left: 10px;
     }
 
 	.fb-links{
-		padding-top: 25%;
+		margin-top: 35%;
 	}
 
 	p{
@@ -384,19 +423,20 @@ p{
 		width: 50%;
 		padding: 24px;
 		text-align: center;
-		background-color: #b08b1c;
 		margin-left: 5px;
   }
 
-  nav ul li a {
+  nav ul li:hover {
+	background-color: #b08b1c;
+	color: black;
+  }
+
+  nav ul li {
 	text-decoration: none;
 	color: white;
+	font-size: 1.5em;
 }
 
-  nav ul li a:hover {
-	text-decoration: none;
-	color: black;
-}
 
 	.showing {
 		max-height: 30em;
@@ -405,10 +445,11 @@ p{
 
     .fb-links li{
         list-style-type: none;
+		margin-left: 10px;
     }
 
 	.fb-links{
-		padding-top: 35%;
+		margin-top: 35%;
 	}
 
 	p{
