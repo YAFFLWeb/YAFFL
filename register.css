@@ -674,7 +674,7 @@ font-size: 1.5em;
 }
 
 	.showing {
-		max-height: 40em;
+		max-height: 30em;
 		display: block;
 	}
 
@@ -762,7 +762,7 @@ font-size: 1.5em;
 }
 
 	.showing {
-		max-height: 40em;
+		max-height: 30em;
 		display: block;
 	}
 
