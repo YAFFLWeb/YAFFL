@@ -126,13 +126,13 @@ nav ul li:hover {
 .content h1{
     color:#b08b1c;
     font-size: 55px;
-    padding-top: 135px;
+    padding-top: 145px;
     text-align: center;
 }
 
 #aboutpic{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -243,15 +243,156 @@ mark.gold{
 			display: block;
 		}
 	
-	.welcome {
-		color: white;
-		font-family: 'Bebas Neue', cursive;
-		font-size: 150px;
-		margin-top: 19%;
+}
+
+@media(max-width: 1000px) and (min-width: 801px){
+    
+    .content{
+        background-color: #000;
+        margin-left:auto;
+        margin-right:auto;
+        width: 750px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .content h1{
+        color:#b08b1c;
+        font-size: 40px;
+        padding-top: 145px;
+        text-align: center;
+    }
+    
+    #aboutpic{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        
+    }
+    p{
+        font-size: 30px;
+        color: white; 
+        text-align: center;
+        
+    }
 
 
 }
+
+@media(max-width: 800px) and (min-width: 601px){
+
+    .content{
+        background-color: #000;
+        margin-left:auto;
+        margin-right:auto;
+        width: 550px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .content h1{
+        color:#b08b1c;
+        font-size: 30px;
+        padding-top: 145px;
+        text-align: center;
+    }
+    
+    #aboutpic{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        
+    }
+    p{
+        font-size: 25px;
+        color: white; 
+        text-align: center;
+        
+    }
+
+
 }
+
+@media(max-width: 600px) and (min-width: 401px){
+
+    .content{
+        background-color: #000;
+        margin-left:auto;
+        margin-right:auto;
+        width: 350px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .content h1{
+        color:#b08b1c;
+        font-size: 25px;
+        padding-top: 145px;
+        text-align: center;
+    }
+    
+    #aboutpic{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        height: 200px;
+        width: 350px;
+        
+    }
+    p{
+        font-size: 20px;
+        color: white; 
+        text-align: center;
+        
+    }
+
+
+}
+
+@media(max-width: 400px) {
+
+    .content{
+        background-color: #000;
+        margin-left:auto;
+        margin-right:auto;
+        width: 275px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .content h1{
+        color:#b08b1c;
+        font-size: 25px;
+        padding-top: 145px;
+        text-align: center;
+    }
+    
+    #aboutpic{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        height: 150px;
+        width: 275px;
+        
+    }
+    p{
+        font-size: 20px;
+        color: white; 
+        text-align: center;
+        
+    }
+
+
+}
+
 
 @media (max-width: 768px) {
 	.welcome {
